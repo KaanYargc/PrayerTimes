@@ -1,0 +1,19 @@
+name: PrayerTimes
+version: 0.0.1
+main: yargc\PrayerTimes\Main
+api: 5.21.2
+src-namespace-prefix: yargc\PrayerTimes
+author: yargc
+description: Prayer Times plugin for PocketMine-MP
+commands:
+  namaz:
+    description: Shows the prayer times for today
+    usage: /prayertimes
+    permission: prayertimes.command
+    aliases:
+      - pt
+
+permissions:
+  prayertimes.command:
+    description: Allows the use of the prayertimes command
+    default: true
